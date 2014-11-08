@@ -17,14 +17,19 @@
         /// </summary>
         protected IStateMachine RSM;
 
-        public BaseState(IStateMachine stateMachine)
+        public BaseState(IStateMachine rootStateMachine)
         {
             _ISM = new StateMachine();
-            RSM = stateMachine;
+            RSM = rootStateMachine;
         }
 
-        public abstract void OnEnter();
-        public abstract void OnExit();
+        public virtual void OnEnter()
+        {
+        }
+
+        public virtual void OnExit()
+        {
+        }
 
         public virtual void Update()
         {
