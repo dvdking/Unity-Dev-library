@@ -1,7 +1,6 @@
 ﻿using System;
-using UnityEditorInternal;
 
-namespace DevLibrary
+namespace DevLibrary.Common
 {
     public class StateMachine:IStateMachine
     {

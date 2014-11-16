@@ -1,8 +1,7 @@
 ﻿using System;
 using UnityEngine;
-using System.Collections;
 
-namespace DevLibrary
+namespace DevLibrary.Common
 {
     public abstract class AppRoot : MonoBehaviour
     {

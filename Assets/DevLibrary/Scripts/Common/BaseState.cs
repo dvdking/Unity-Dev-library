@@ -1,4 +1,4 @@
-﻿namespace DevLibrary
+﻿namespace DevLibrary.Common
 {
     public abstract class BaseState
     {
