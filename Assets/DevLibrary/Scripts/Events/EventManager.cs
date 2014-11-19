@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 namespace DevLibrary.Events
 {
@@ -58,6 +59,7 @@ namespace DevLibrary.Events
             {
                 data = Activator.CreateInstance(typeof(EventData<T>)) as EventData;
             }
+            
 
             return data as EventData<T>;
         }
